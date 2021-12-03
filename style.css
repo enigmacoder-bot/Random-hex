@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  transition: background 0.3s ease;
+  /* background: linear-gradient(rgba(224, 46, 172), rgb(12, 159, 195)); */
+}
+.change-btn {
+  background-color: #000;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  padding: 20px 50px;
+}
+.change-btn:active {
+  transform: scale(0.98);
+}
+.color-text {
+  font-size: 14px;
+}
